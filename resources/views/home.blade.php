@@ -3,6 +3,9 @@
 @section('title') Login @endsection
 
 @section('content')
+
+<link rel="stylesheet" href="{{ asset('css/login.css') }}">
+
 <div class="container h-100">
     <div class="row h-100 justify-content-center align-items-center">
         <div class="col-lg-4 col-md-6 col-sm-10">
@@ -52,4 +55,5 @@
         </div>
     </div>
 </div>
+
 @endsection

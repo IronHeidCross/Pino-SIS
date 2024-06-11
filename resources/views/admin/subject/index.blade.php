@@ -3,6 +3,7 @@
 @section('title') Subject List @endsection
 
 @section('content')
+<link rel="stylesheet" href="{{ asset('css/Studentlist.css') }}">
 
 <div class="pt-3 pb-3">
     <h3>

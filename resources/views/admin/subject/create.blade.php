@@ -7,6 +7,7 @@
 
 @include('layouts.default-message')
 
+<link rel="stylesheet" href="{{ asset('css/form.css') }}">
 <div class="card">
     <div class="card-body">
         <h4 class="card-title mb-4 text-center">Subject Create Form</h4>

@@ -7,6 +7,7 @@
 
 @include('layouts.default-message')
 
+<link rel="stylesheet" href="{{ asset('css/formResult.css') }}">
 <div class="card">
     <div class="card-body">
         <h4 class="card-title mb-4 text-center">Result Edit Form</h4>

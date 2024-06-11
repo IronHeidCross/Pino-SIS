@@ -1,3 +1,6 @@
+<link rel="stylesheet" href="{{ asset('css/app.css') }}">
+
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="{{ url('/') }}">Student DMS</a>

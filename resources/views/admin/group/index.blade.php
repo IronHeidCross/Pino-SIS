@@ -3,7 +3,7 @@
 @section('title') Group List @endsection
 
 @section('content')
-
+<link rel="stylesheet" href="{{ asset('css/Studentlist.css') }}">
 <div class="pt-3 pb-3">
     <div class="row">
         <div class="col-md-8 offset-md-2">

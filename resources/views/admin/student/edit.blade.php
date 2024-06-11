@@ -5,7 +5,7 @@
 @section('content')
 
 @include('layouts.default-message')
-
+<link rel="stylesheet" href="{{ asset('css/Studentlist.css') }}">
 <div class="card">
     <div class="card-body">
         <h4 class="card-title mb-4 text-center">Edit Form</h4>

@@ -4,6 +4,7 @@
 
 @section('content')
 
+<link rel="stylesheet" href="{{ asset('css/Studentlist.css') }}">
 <div class="pt-3 pb-3">
     <h3>
         Student List
@@ -20,7 +21,7 @@
                 <tr>
                     <th>#</th>
                     <th>Full Name</th>
-                    <th>Roll</th>
+                    <th>Enrollment</th>
                     <th>Profile Photo</th>
                     <th class="text-center">Action</th>
                 </tr>
@@ -43,7 +44,7 @@
                         <form id="delete--{{ $student->id }}" action="{{ route('admin.student.delete', $student) }}"
                             method="POST">
                             <a class="btn btn-sm btn-primary" href="{{ route('admin.student.edit', $student) }}">
-                                <i class="fas fa-edit"></i>
+                                <i class="fas fa-edit">Edit</i>
                             </a>
                             <button type="button" class="btn btn-sm btn-danger btn-confirm"
                                 title="remove this item" data-id="{{ $student->id }}"

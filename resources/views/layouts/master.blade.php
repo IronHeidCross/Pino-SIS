@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta content="Student Data Management System" name="description" />
-    <meta content="Sabbir Rupom" name="author" />
+
 
     <!-- Initialize head assets -->
     <link rel="shortcut icon" href="{{ URL::asset('assets/images/favicon.ico')}}">
